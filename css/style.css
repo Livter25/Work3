@@ -349,6 +349,14 @@ template {
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'GothamPro';
+  src: url("../fonts/GothamPro.woff") format("woff"), url("../fonts/GothamPro.woff2") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 .container {
   width: 85%;
   max-width: 1256px;
@@ -369,6 +377,7 @@ a {
   height: 117px;
   background-color: transparent;
   border-bottom: 2px solid rgba(68, 66, 67, 0.7);
+  position: fixed;
 }
 
 .menu {
@@ -428,7 +437,122 @@ a {
 }
 
 .hero {
-  background: url("../img/bg.jpg") no-repeat center/cover;
-  height: 100vh;
+  background: url(../img/bg.jpg) no-repeat center top/cover fixed;
+  height: 100%;
+}
+
+.hero__title {
+  padding-top: 390px;
+  font-family: GothamPro;
+  font-size: 152.6px;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  margin: auto;
+  text-align: center;
+  color: #f5f5f5;
+}
+
+.hero__text {
+  margin: auto;
+  padding-left: 20px;
+  text-align: center;
+  font-family: GothamPro;
+  font-size: 24.8px;
+  line-height: 51px;
+  font-weight: 500;
+  letter-spacing: 0.74em;
+  text-transform: uppercase;
+  color: #11749e;
+}
+
+.hero__scroll {
+  margin-top: 117px;
+}
+
+.hero__scroll__text {
+  margin: auto;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #ffffff;
+  padding-bottom: 20px;
+}
+
+.hero__scroll__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: auto;
+  padding-bottom: 110px;
+}
+
+.weare {
+  background-color: #11749e;
+}
+
+.weare__title {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  padding-top: 170px;
+  padding-bottom: 145px;
+  font-family: GothamPro;
+  font-size: 37.6px;
+  line-height: 45px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.weare__title::after {
+  content: 'W';
+  position: absolute;
+  opacity: 0.18;
+  font-family: 'Roboto', sans-serif;
+  font-size: 247.2px;
+  line-height: 210px;
+  font-weight: 700;
+  color: #ffffff;
+  top: 55%;
+  left: 50.5%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.weare__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-bottom: 130px;
+}
+
+.weare__content__img {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.weare__content__title {
+  font-family: GothamPro;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 500;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+}
+
+.weare__content__text {
+  font-family: GothamPro;
+  font-size: 15px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */

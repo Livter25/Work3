@@ -1,3 +1,40 @@
 .hero
-    background: url('../img/bg.jpg') no-repeat center / cover
-    height: 100vh
+    background: url(../img/bg.jpg) no-repeat center top / cover fixed
+    height: 100%
+    &__title
+        padding-top: 390px
+        font-family: GothamPro
+        font-size: 152.6px
+        line-height: 1.2
+        font-weight: 700
+        letter-spacing: -0.05em
+        text-transform: uppercase
+        margin: auto
+        text-align: center
+        color: $text
+    &__text
+        margin: auto
+        padding-left: 20px
+        text-align: center
+        font-family: GothamPro
+        font-size: 24.8px
+        line-height: 51px
+        font-weight: 500
+        letter-spacing: 0.74em
+        text-transform: uppercase
+        color: $premial
+    &__scroll
+        margin-top: 117px
+        &__text
+            margin: auto
+            text-align: center
+            font-family: 'Open Sans', sans-serif
+            font-size: 13px
+            line-height: 22px
+            font-weight: 400
+            color: $light
+            padding-bottom: 20px
+        &__img
+            display: flex
+            margin: auto
+            padding-bottom: 110px
