@@ -17,12 +17,12 @@
                     <img src="img/CS.png" class="logo menu__logo">
                 </a>
                 <nav class="nav menu__nav">
-                    <a href="#main" class="nav__item">Home</a>
-                    <a href="#pages" class="nav__item">Pages</a>
-                    <a href="#Features" class="nav__item">Features</a>
-                    <a href="#Extensions" class="nav__item">Extensions</a>
-                    <a href="#Tutorials" class="nav__item">Tutorials</a>
-                    <a href="#Contact_us" class="nav__item">Contact us</a>
+                    <a href="#hero" class="nav__item">Home</a>
+                    <a href="#weare" class="nav__item">Pages</a>
+                    <a href="#akito" class="nav__item">Features</a>
+                    <a href="#blog" class="nav__item">Extensions</a>
+                    <a href="#inodog" class="nav__item">Tutorials</a>
+                    <a href="#forma" class="nav__item">Contact us</a>
                 </nav>
                 <div class="contacts menu__contacts">
                     <a href="#" class="contacts__social"><img src="img/facebook.png" alt="#"></a>
@@ -34,7 +34,7 @@
         </div>
     </div>
     <main>
-        <section class="hero">
+        <section class="hero" id="hero">
             <div class="container">
                 <div class="hero__content">
                    <h3 class="hero__title">Creatives</h3>
@@ -46,7 +46,7 @@
                 </div>
             </div>
         </section>
-        <section class="weare">
+        <section class="weare" id="weare">
             <div class="container weare__container">
                 <h3 class="weare__title">We Are An Awesome Agency</h3>
                 <div class="weare__content">
@@ -73,7 +73,7 @@
                 </div>
             </div>
         </section>
-        <section class="akito">
+        <section class="akito" id="akito">
             <div class="akito__container">
                 <div class="akito__content">
                     <p class="akito__content__suptext">Jan 4, 2016  |  In Culture</p>
@@ -93,7 +93,7 @@
                 </div>
             </div>
         </section>
-        <section class="blog">
+        <section class="blog" id="blog">
             <div class="container blog__container">
                 <h3 class="blog__title">Let's blog</h3>
                 <p class="blog__titletext">We love clean design and advanced digital solutions.</p>
@@ -121,7 +121,7 @@
                 </div>
             </div>
         </section>
-        <section class="inodog">
+        <section class="inodog" id="inodog">
             <div class="container inodog__container">
                 <div class="inodog__top">
                     <img src="img/inodog.png" alt="#" class="inodog__top__img">
@@ -144,7 +144,7 @@
             </div>
 
         </section>
-        <section class="team">
+        <section class="team" id="team">
             <div class="container team__container">
                 <h3 class="team__title">Our Team</h3>
                 <p class="team__titletext">sales long tail influencer pitch release niche market.</p>
@@ -182,10 +182,55 @@
 
             </div>
         </section>
+        <section class="forma" id="forma">
+            <div class="container forma__container">
+                <h3 class="forma__title">We’d love to hear about your project.</h3>
+                <form action="#" method="#" class="form question__form">
+                    <div class="question__form__input">
+
+                        <label for="question-user-name" class="label form__label"></label>
+                        <input type="text" name="userName" class="input form__input question__input " id="question-user-name" placeholder="Name">
+                    </div>
+                    <div class="question__form__input">
+    
+                        <label for="question-user-Phone" class="label form__label"></label>
+                        <input type="tel" name="userPhone" class="input form__input question__input " id="question-user-Phone" placeholder="Phone"
+                        >
+                    </div>
+                    <div class="question__form__input">
+            
+                        <label for="question-user-Phone" class="label form__label"></label>
+                        <input type="email" name="userEmail" class="input form__input question__input " id="question-user-Phone" placeholder="E-MAIL"
+                        >
+                    </div>
+                    <div class="question__form__input form__mas__input">
+                        
+                        <label for="question-user-email" class="label form__label"></label>
+                        <input type="text" name="userMasange" class="input question__input form__mas" id="question-user-email" placeholder="Masange">
+                    </div>
+                    
+                    <button class="button button--primary forma__button">Отправить</button>
+                </form>
+            </div>
+        </section>
 
     </main>
+    <footer class="footer">
+        <div class="footer__map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d10499.925901033668!2d2.339777829797774!3d48.85856363643852!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1spont%20neuf!5e0!3m2!1sru!2sru!4v1612324584882!5m2!1sru!2sru" width="100%" height="332" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+        <div class="footer__low">
+            <p class="footer__low__text">© 2016 PSDfreebies.com – All Right Reserved</p>
+            <p class="footer__low__text">Design by: PSDfreebies.com</p>
+
+
+        </div>
+
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/jquery.mask.min.js"></script>
     <script src="js/main.js"></script>
     
 </body>

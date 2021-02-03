@@ -1,0 +1,82 @@
+.forma
+    height: 922px
+    background: url('../img/footer.jpg') no-repeat center / cover
+    color: $light
+    font-family: GothamPro
+    position: relative
+    &__container
+        margin-top: 166px
+        padding-top: 220px
+    &__title
+        position: relative
+        font-size: 37.6px
+        line-height: 45px
+        font-weight: 500
+        text-transform: uppercase
+        text-align: center
+        margin: auto
+        margin-bottom: 150px
+
+        &::after
+            content: 'C'
+            position: absolute
+            opacity: 0.18
+            font-family: 'Roboto', sans-serif
+            font-size: 247.2px
+            line-height: 210px
+            font-weight: 700
+            color: white
+            top: 55%
+            left: 50.5%
+            -webkit-transform: translate(-50%, -50%)
+            transform: translate(-50%, -50%)
+    &__button
+        display: block
+        width: 227px
+        height: 64px
+        background-color: $premial
+        font-size: 24px
+        line-height: 24px
+        font-weight: 500
+        text-transform: uppercase
+        color: #ffffff
+        outline: none
+        border: none
+        margin: auto
+.form
+    width: 100%
+    height: 100%
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    position: relative
+    color: $light
+    margin: 20px
+    &__invalid
+        margin-bottom: 10px
+    &__mas
+        width: 100%
+        height: 151px
+        background: transparent
+        border: 1px solid #ffffff
+        &__input
+            width: 100%
+            margin-top: 40px
+            margin-bottom: 50px
+    &__input
+            width: 370px
+            height: 48px
+            background: transparent
+            border: 1px solid #ffffff
+
+.question__form__input
+    position: relative
+    display: flex
+    flex-direction: column-reverse
+.question__input
+    color: $light
+input::-webkit-input-placeholder 
+    color: $light
+em.invalid
+    position: absolute
+    bottom: 105%
